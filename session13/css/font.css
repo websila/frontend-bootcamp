@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "alireza";
+  font-weight: 400;
+  src: url("../fonts/morabba/Morabba-Regular.woff2") format("woff2"),
+    url("../fonts/morabba/Morabba-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "alireza";
+  font-weight: bold;
+  src: url("../fonts/morabba/Morabba-Bold.woff") format("woff2"),
+    url("../fonts/morabba/Morabba-Bold.woff") format("woff");
+}
+body {
+  font-family: "alireza";
+}
+.bold {
+  font-weight: bold;
+}
+.regular {
+  font-weight: 400;
+}
+i {
+  color: #00acee;
+  font-size: 72px;
+}
+i:hover {
+  color: blueviolet;
+}

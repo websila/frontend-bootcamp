@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000;
+    color: #FFF;
+}
+/* a{
+    text-decoration: none;
+    color: yellow;
+} */
+a:link{
+    background-color: yellow;
+}
+a:hover{
+    color:#FFF;
+    text-decoration: underline;
+}
+a:active{
+    background-color: #555;
+}
+a:visited{
+    background-color: aqua;
+}
+ul{
+    list-style-position: inside;
+    list-style-type: square;
+}
+ol{
+    list-style-position: inside;
+    list-style-type: lower-roman;
+}
+li{
+    /* background-color: red; */
+    /* display: inline-block; */
+}
+.list3 li{
+    display: inline-block;
+}
+html body .list3 .box2 .box3 .boaaga{
+    background-color: yellow;
+}
+.list2{
+    list-style-image: url("images/001469.jpg");
+}

@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.level1 {
+  list-style-position: inside;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+.level1 > li {
+  border: 1px solid #000;
+  margin: 10px;
+  padding: 5px 30px;
+  position: relative;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+.arrow {
+  width: 10px;
+}
+.level2 {
+  list-style-position: inside;
+  list-style-type: none;
+  flex-direction: column;
+  width: 200px;
+  border: 1px solid #000;
+  border-top: 3px solid green;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: #fff;
+  display: none;
+}
+.level1 > li:hover .level2 {
+  display: flex;
+}
+.level2 li {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.level2 li:hover {
+  background-color: #ccc;
+}
+.level2 li:hover a {
+  color: green;
+}

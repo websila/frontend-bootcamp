@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .box1 {
+        padding: 5px 10px;
+        background-color: aquamarine;
+        width: max-content;
+      }
+      .box2 {
+        width: 100vw; /* view width */
+        height: 10vh; /* veiw height */
+        background-color: red;
+      }
+      #btn {
+        padding: 10px 20px;
+        background-color: blueviolet;
+        color: #fff;
+        width: max-content;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="box2">test</div> -->
+    <div
+      class="box1"
+      onclick="document.getElementById('btn').innerHTML='KHODAFEZ'"
+    >
+      click on me
+    </div>
+    <div id="btn"></div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+/*min-width*/
+body {
+  background-color: orange;
+}
+@media all and (min-width: 576px) {
+  body {
+    background-color: red;
+  }
+}
+@media all and (min-width: 768px) {
+  body {
+    background-color: green;
+  }
+}
+@media all and (min-width: 992px) {
+  body {
+    background-color: blue;
+  }
+}
+@media all and (min-width: 1200px) {
+  body {
+    background-color: yellow;
+  }
+}
+@media all and (min-width: 1400px) {
+  body {
+    background-color: pink;
+  }
+}
+
+/*max-width*/
+@media all and (max-width: 1400px) {
+  body {
+    background-color: pink;
+  }
+}
+@media all and (max-width: 1200px) {
+  body {
+    background-color: blue;
+  }
+}
+@media all and (max-width: 992px) {
+  body {
+    background-color: green;
+  }
+}
+@media all and (max-width: 768px) {
+  body {
+    background-color: orange;
+  }
+}
+@media all and (max-width: 576px) {
+  body {
+    background-color: red;
+  }
+}
+body {
+  background-color: blueviolet;
+}
+
+@media print {
+  h1 {
+    display: none;
+  }
+}

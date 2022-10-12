@@ -1,0 +1,22 @@
+.box {
+  width: 300px;
+  height: 150px;
+  background-color: brown;
+  margin: 20px;
+  float: left;
+}
+.box2 {
+  width: 500px;
+  height: 200px;
+  background-color: black;
+}
+.inline-box {
+  width: 300px;
+  height: 150px;
+  background-color: green;
+  margin: 20px;
+  display: inline-block;
+}
+.clear {
+  clear: both;
+}

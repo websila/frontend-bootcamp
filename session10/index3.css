@@ -1,0 +1,13 @@
+.btn {
+  width: 100px;
+  height: 40px;
+  background-color: violet;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.btn:hover {
+  transform: rotate(-20deg);
+  scale: 1.5;
+}
