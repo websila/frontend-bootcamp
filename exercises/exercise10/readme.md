@@ -9,4 +9,6 @@
    - Android Large - 1
    - iPad Pro 11" - 1
 
-> everythings you need are located in **_starter directory_**. so just download it and make some fun with that 😉
+> everythings you need are located in **_starter directory_**.  
+> so just download it and make some fun with that 😉  
+> good luck 😃

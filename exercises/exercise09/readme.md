@@ -9,4 +9,6 @@
    - Desktop - 1
    - Desktop - 2
 
-> everythings you need are located in **_starter directory_**. so just download it and make some fun with that 😉
+> everythings you need are located in **_starter directory_**.  
+> so just download it and make some fun with that 😉  
+> good luck 😃
