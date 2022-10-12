@@ -10,5 +10,5 @@
    - iPad Pro 11" - 1
 
 > everythings you need are located in **_starter directory_**.  
-> so just download it and make some fun with that 😉  
+> so you can just download it and make some fun with that 😉  
 > good luck 😃
