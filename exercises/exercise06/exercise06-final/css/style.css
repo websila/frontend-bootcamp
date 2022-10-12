@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.call-component {
+  width: 1200px;
+  height: 240px;
+  background-color: #bf9a66;
+  margin: 0 auto;
+  color: #fff;
+  font-family: "Vazir";
+  position: relative;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+.call-right,
+.call-left {
+  float: right;
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+.call-right {
+  /* border-left: 1px solid #fff; */
+}
+.call-left {
+  /* border-right: 1px solid #fff; */
+  font-size: 28px;
+  line-height: 52px;
+}
+.right-inner,
+.left-inner {
+  width: max-content;
+  margin: 0 auto;
+}
+.right-inner {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translateX(50%) translateY(-50%);
+}
+.left-inner {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translateX(50%) translateY(-50%);
+  text-align: center;
+}
+.right-icon {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.left-icon {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: rotate(180deg) translateY(50%);
+}
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translateX(50%) translateY(-50%);
+  z-index: 1;
+  line-height: 100px;
+  text-align: center;
+}
+.vertical-line {
+  width: 2px;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  z-index: 0;
+}
+.circle img {
+  width: 60%;
+  vertical-align: middle;
+}
+.left-inner div:nth-child(2) {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+.right-inner h3 {
+  font-size: 28px;
+}

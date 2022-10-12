@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.clear {
+  clear: both;
+}
+
+header {
+  background-color: #ffd6a6;
+  height: auto;
+}
+.header-inner {
+  width: 100%;
+  box-sizing: border-box;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.head-left-col {
+  display: flex;
+  align-items: center;
+  order: 1;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.head-right-col {
+  /* height: 80px; */
+  display: flex;
+  /* justify-content: flex-end;
+  align-items: center; */
+  flex-direction: column;
+  align-items: center;
+}
+.btn {
+  padding: 10px 30px;
+  background-color: #ffaead;
+  width: max-content;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+nav li {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: aquamarine;
+}
+.logo {
+  width: 80px;
+  height: 80px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  line-height: 80px;
+}
+nav {
+  /* margin-right: 20px; */
+  order: 1;
+  margin-top: 10px;
+}
+.posts-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.post-card-component {
+  width: calc(25% - 20px);
+  min-width: 100%;
+  background-color: aquamarine;
+  border: 3px solid #000;
+  box-sizing: border-box;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  margin: 10px;
+}
+.post-card-component::after {
+  content: "";
+  width: 90%;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(to top, crimson, transparent);
+}
+.post-head {
+  width: 100%;
+  height: 80px;
+  background-color: #ffaead;
+  display: flex;
+}
+.post-body {
+  width: 100%;
+  background-color: cadetblue;
+}
+.post-foot {
+  width: 100%;
+  background-color: crimson;
+  overflow-y: scroll;
+  height: 80px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.post-head-left {
+  width: 50%;
+  height: 80px;
+  background-color: darkcyan;
+  display: flex;
+}
+.post-head-right {
+  width: 50%;
+  height: 80px;
+  background-color: yellow;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.post-head-right i {
+  margin-right: 10px;
+  font-size: 30px;
+}
+.post-body img {
+  max-width: 100%;
+}
+.phl-left {
+  width: 50%;
+  height: 100%;
+  background-color: #000;
+}
+.phl-right {
+  width: 50%;
+  height: 100%;
+  background-color: red;
+}

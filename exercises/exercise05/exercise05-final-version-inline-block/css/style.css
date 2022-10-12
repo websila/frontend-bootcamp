@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.card-component {
+  width: 340px;
+  padding: 16px;
+  padding-bottom: 24px;
+  box-shadow: 0 0px 15px 3px rgba(0, 0, 0, 0.5);
+  margin: 10px;
+  border-radius: 16px;
+  font-family: sans-serif;
+  display: inline-block;
+}
+.card-head {
+  width: 100%;
+  position: relative;
+}
+.card-thumbnail {
+  width: 100%;
+  border-radius: 8px;
+}
+.heart-icon {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 27px;
+}
+.card-body {
+  width: 100%;
+}
+.card-body {
+  width: 100%;
+}
+
+.card-body-title {
+  width: 100%;
+  position: relative;
+
+  margin-top: 20px;
+}
+.card-body-icons {
+  width: 100%;
+
+  margin-top: 24px;
+}
+.card-body-list {
+  width: 100%;
+
+  margin-top: 24px;
+}
+.card-body-price {
+  width: 100%;
+  margin-top: 24px;
+}
+.card-rate {
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: right;
+}
+.card-rate-image {
+  display: inline-block;
+  vertical-align: middle;
+}
+.card-rate-number {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 18px;
+}
+.icon-container {
+  width: 23.5%;
+  display: inline-block;
+  text-align: center;
+}
+.icon-container svg path {
+  width: 30px;
+}
+.card-body-list ul {
+  list-style-position: inside;
+}
+.main-price,
+.off-price {
+  display: inline-block;
+  vertical-align: middle;
+}
+.main-price {
+  text-decoration: line-through;
+}
+.off-price span {
+  font-size: 28px;
+  font-weight: bold;
+}
+.off-price {
+  margin-left: 24px;
+}
+.icon-container div {
+  margin-top: 8px;
+}
+.icon-container svg {
+  width: 24px;
+  height: 24px;
+}
+.my-stroke-svg path {
+  stroke: rgba(0, 0, 0, 0.5);
+}
+.my-fill-svg path {
+  fill: rgba(0, 0, 0, 0.5);
+}
+.text-gray {
+  color: rgba(0, 0, 0, 0.5);
+}
