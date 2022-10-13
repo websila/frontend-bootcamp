@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        font-size: clamp(20px, 4vw, 30px);
+        line-height: 1.2;
+        margin-bottom: 40px;
+        margin-top: 150px;
+      }
+      main {
+        max-width: 520px;
+        margin: 0 auto;
+      }
+      summary {
+        font-size: 1.25rem;
+        font-weight: 600;
+        background-color: #fafafa;
+        background-image: radial-gradient(
+            circle at 40% 91%,
+            rgba(251, 251, 251, 0.04) 0%,
+            rgba(251, 251, 251, 0.04) 50%,
+            rgba(229, 229, 229, 0.04) 50%,
+            rgba(229, 229, 229, 0.04) 100%
+          ),
+          radial-gradient(
+            circle at 66% 97%,
+            rgba(36, 36, 36, 0.04) 0%,
+            rgba(36, 36, 36, 0.04) 50%,
+            rgba(46, 46, 46, 0.04) 50%,
+            rgba(46, 46, 46, 0.04) 100%
+          ),
+          radial-gradient(
+            circle at 86% 7%,
+            rgba(40, 40, 40, 0.04) 0%,
+            rgba(40, 40, 40, 0.04) 50%,
+            rgba(200, 200, 200, 0.04) 50%,
+            rgba(200, 200, 200, 0.04) 100%
+          ),
+          radial-gradient(
+            circle at 15% 16%,
+            rgba(99, 99, 99, 0.04) 0%,
+            rgba(99, 99, 99, 0.04) 50%,
+            rgba(45, 45, 45, 0.04) 50%,
+            rgba(45, 45, 45, 0.04) 100%
+          ),
+          radial-gradient(
+            circle at 75% 99%,
+            rgba(243, 243, 243, 0.04) 0%,
+            rgba(243, 243, 243, 0.04) 50%,
+            rgba(37, 37, 37, 0.04) 50%,
+            rgba(37, 37, 37, 0.04) 100%
+          ),
+          linear-gradient(90deg, rgb(34, 222, 237), rgb(135, 89, 215));
+        color: #fff;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        outline: none;
+        border-radius: 0.25rem;
+        text-align: left;
+        cursor: pointer;
+        position: relative;
+      }
+      p {
+        text-align: left;
+      }
+      details[open] summary ~ * {
+        animation: sweep 0.5s ease-in-out;
+      }
+      @keyframes sweep {
+        0% {
+          opacity: 0;
+          margin-top: -10px;
+        }
+        100% {
+          opacity: 1;
+          margin-top: 0px;
+        }
+      }
+      details > summary::after {
+        position: absolute;
+        content: "+";
+        right: 20px;
+      }
+      details[open] > summary::after {
+        position: absolute;
+        content: "-";
+        right: 20px;
+      }
+      details > summary::-webkit-details-marker {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <details open>
+      <summary>What Is Web Design?</summary>
+      <div class="faq__content">
+        <p>
+          Web design encompasses many different skills and disciplines in the
+          production and maintenance of websites.
+        </p>
+      </div>
+    </details>
+  </body>
+</html>

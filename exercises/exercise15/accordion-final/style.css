@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: tahoma;
+}
+.accordion {
+  width: 500px;
+  margin: 20px auto;
+}
+.accordion-item {
+  border: 5px solid #000;
+  margin: 5px 0px;
+}
+.accordion-header {
+  background-color: steelblue;
+  color: #fff;
+  padding: 10px;
+}
+.accordion-body {
+  background-color: skyblue;
+  height: 0px;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+.body-inner {
+  padding: 10px;
+}
+.accordion-item.open .accordion-body {
+  /* height: 100px; */
+}

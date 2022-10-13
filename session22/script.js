@@ -1,10 +1,11 @@
 // ! destructing arrays
-/* const numbers = [1, 5, 6];
-const a = numbers[0];
+const numbers = [1, 5, 6, "et", "dsgs"];
+/* const a = numbers[0];
 const b = numbers[1];
 const c = numbers[2];
-const [a, , c] = numbers;
-console.log(c); */
+const d = numbers[3];
+const e = numbers[4];  */
+//const [a, b, , d, e] = numbers;
 
 // ! destructing objects
 /* const post1 = {
@@ -15,30 +16,26 @@ console.log(c); */
   author: "Reva",
   tags: ["iusto", "dolorem", "et", "vel"],
 }; */
-/* console.log(post1);
-const id = post1.id;
+/* const id = post1.id;
 const title = post1.title;
-const tags = post1.tags; */
-/* const { id, title, tags } = post1;
-console.log(id);
-console.log(title);
-console.log(tags);
- */
+const content = post1.content;
+const author = post1.title;
+const tags = post1.tags;
+console.log(id, title, content, author, tags); */
+// const { id: x, tags: barchasb } = post1;
 
 // ! speard operator (...)
-/* const users1 = ["Brant", "Thaddeus", "Edison", "Effie"];
-console.log(users1);
-console.log(...users1);
-const new_user = prompt("add user");
-const users2 = [...users1, new_user];
-console.log(users2); */
-
-/* function logger(a, b, c) {
+const users1 = ["Brant", "Thaddeus", "Edison", "Effie"];
+// console.log(users1);
+// console.log(...users1);
+// const newUser = prompt("نام کاربر را وارد نمایید");
+// const users2 = [...users1, newUser];
+// console.log(users2);
+const logger = function (a, b, c) {
   console.log(a, b, c);
-}
-logger(1, 6, 4);
-const numbers = [1, 6, 4];
-logger(...numbers); */
+};
+const inputs = ["test1", "test2", "test3"];
+logger(...inputs);
 
 // ! DOM Traversing
 // ? DOM Traversing : Downwards
@@ -169,7 +166,7 @@ function getMembers() {
 addMember("Alpha", getMembers); */
 
 // ! working with data issue => solution 1 (Promise)
-let myPromise = new Promise(function (resolve, reject) {
+/* let myPromise = new Promise(function (resolve, reject) {
   setTimeout(function () {
     console.log("job1");
     resolve();
@@ -180,7 +177,7 @@ myPromise.then(function (res) {
     console.log("job2");
     return Promise.resolve();
   }, 1000);
-});
+}); */
 
 // ! async - await
 
