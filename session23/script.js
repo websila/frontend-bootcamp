@@ -41,7 +41,7 @@ console.log(Math.random()); */
     String(next_minute).length === 1 ? `0${next_minute}` : next_minute;
   secondsEL.innerHTML = next_second;
   minutesEL.innerHTML = next_minute;
-}, 1000); */
+}, 100); */
 
 // ! debugger
 /* for (let i = 1; i < 100; i++) {
