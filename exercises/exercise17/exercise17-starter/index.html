@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: sans-serif;
+      }
+      #submit {
+        padding: 5px 20px;
+        background-color: steelblue;
+        color: #fff;
+        margin-top: 10px;
+        text-align: center;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: all 0.5s;
+      }
+      #submit:hover {
+        background-color: skyblue;
+      }
+      #ip-input {
+        border: 2px dashed #aaa;
+        border-radius: 20px;
+        padding: 10px;
+        outline: none;
+      }
+      #container {
+        text-align: center;
+      }
+      .result-container {
+        margin-top: 30px;
+        font-size: 11px;
+        font-weight: bold;
+      }
+      .result-container span:first-child {
+        color: darkred;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <input id="ip-input" type="text" placeholder="Your IP..." />
+      <div id="submit">What's my country?</div>
+      <div class="result-container">
+        <span>Result => </span>
+        <span id="result">Islamic Republic of Iran</span>
+      </div>
+    </div>
+    <script src="try.js"></script>
+  </body>
+</html>
